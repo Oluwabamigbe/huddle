@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  border: 0px;
+}
+  body{
+  background-image: url('bg-desktop.svg');
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+  font-family:Open Sans ;
+}
+header{
+  padding: 20px;
+}
+img{
+  max-width: 100%;
+}
+/*
+.image{
+  padding: 20px;
+  max-width: 100%;
+}*/
+h1{
+  font-family: Poppins;
+  font-size: 40px;
+}
+/*.message{
+  padding:30px 30px 0px 30px;
+}*/
+.message p{
+  font-size: 18px;
+}
+button{
+  background-color:  hsl(300, 69%, 71%);
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding:10px 40px;
+  box-shadow:1px 1px 5px 0px rgb(56, 53, 53) ;
+}
+
+.main-content{
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  padding: 20px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+.fas{
+  font-size: 38px;
+}
+.insta{
+  font-size: 35px;
+}
+.iconify{
+  color: white;
+}
+.iconify:hover{
+  color: rgb(175, 74, 175);
+}
+.attribution a{
+  text-decoration: none;
+  color: bisque;
+}
+.attribution a:hover{
+  color: burlywood;
+}
+
+@media(max-width:768px) {
+  body{
+    background-image: url('bg-mobile.svg');
+    background-repeat: no-repeat;
+  }
+  .main-content{
+    display: block;
+  }
+  footer{
+    display: block;
+    text-align: center;
+  }
+
+  h1{
+    font-family: Poppins;
+    font-size: 34px;
+  }
+  .message{
+    padding:30px;
+    text-align: center;
+  }
+  .message p{
+    font-size: 20px;
+  }
+  button{
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    color: hsl(300, 69%, 71%);
+    padding:10px 70px;
+    box-shadow:1px 1px 5px 0px rgb(56, 53, 53) ;
+  }
+ 
+  
+
+}
